@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3f2adb-30c0-4c55-b5f7-36f65a6f0b3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cp4/ConbineLatest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cp4/ConcatEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cp4/ElectricBills.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cp4/ReactiveSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cp4/ZipEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cp4/AmbEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cp4/TakeUntilEX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,11 +57,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cp4/ConcatEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="240">
+              <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cp4/AmbEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cp4/TakeUntilEX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,6 +129,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cp4/ConbineLatest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/ReactiveSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/ConcatEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cp4/AmbEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cp4/TakeUntil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cp4/TakeUntilEX.java" />
       </list>
     </option>
   </component>
@@ -193,7 +216,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConcatEx">
+  <component name="RunManager" selected="Application.TakeUntilEX">
+    <configuration name="AmbEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cp4.AmbEx" />
+      <module name="rxjava1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cp4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConbineLatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cp4.ConbineLatest" />
       <module name="rxjava1.main" />
@@ -220,19 +256,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElectricBills" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cp4.ElectricBills" />
-      <module name="rxjava1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cp4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReactiveSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cp4.ReactiveSum" />
       <module name="rxjava1.main" />
@@ -246,8 +269,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZipEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cp4.ZipEx" />
+    <configuration name="TakeUntilEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cp4.TakeUntilEX" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
@@ -261,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TakeUntilEX" />
+        <item itemvalue="Application.AmbEx" />
         <item itemvalue="Application.ConcatEx" />
         <item itemvalue="Application.ReactiveSum" />
         <item itemvalue="Application.ConbineLatest" />
-        <item itemvalue="Application.ElectricBills" />
-        <item itemvalue="Application.ZipEx" />
       </list>
     </recent_temporary>
   </component>
@@ -281,12 +304,12 @@
       <updated>1551764967282</updated>
       <workItem from="1551764971201" duration="32000" />
       <workItem from="1551765013721" duration="19091000" />
-      <workItem from="1551836294223" duration="7403000" />
+      <workItem from="1551836294223" duration="8857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26526000" />
+    <option name="totallyTimeSpent" value="27980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -512,10 +535,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cp4/amb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cp4/ConcatEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cp4/AmbEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cp4/TakeUntilEX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
