@@ -1,10 +1,5 @@
 package common;
 
-import com.sun.org.apache.bcel.internal.generic.RET;
-import javafx.scene.shape.TriangleMesh;
-
-import java.util.Observable;
-
 public class Shape {
 
     public static final String HEXAGON = "HEXAGON";
@@ -47,5 +42,34 @@ public class Shape {
             return shape.substring(0, hypen);
         }
         return shape;
+    }
+
+    public static String getShape(String obj){
+        if( obj == null || obj.equals("")) return NO_SHAPE;
+        if (obj.endsWith("-H")) return HEXAGON;
+        if (obj.endsWith("-O")) return OCTAGON;
+        if (obj.endsWith("-R")) return RECTANGLE;
+        if (obj.endsWith("-T")) return TRIANGLE;
+        if (obj.endsWith("<>")) return DIAMOND;
+        if (obj.endsWith("-P")) return PENTAGON;
+        if (obj.endsWith("-S")) return STAR;
+        return "BALL";
+    }
+
+    public static String flip(String item) throws ShapeCannotFlipException {
+        if(item.startsWith(FLIPPED)) {
+            return item.replace(FLIPPED, "");
+        }
+
+        String shape = getShape(item);
+        switch(shape){
+            case BALL:
+            case RECTANGLE:
+            case DIAMOND:
+            case NO_SHAPE:
+                //throw new ShapeCannotFlipException();
+        }
+
+        return FLIPPED +item;
     }
 }

@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3f2adb-30c0-4c55-b5f7-36f65a6f0b3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cp4/AmbEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cp4/TakeUntilEX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/CallBackHeaven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/ComputationSchedulerEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/HttpGetEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/IOSchedulerEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/NewThreadSchedulerEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/OpenWeatherMapV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/TrampolineSchedulerEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/flip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/ShapeCannotFlipException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/common/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/common/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cp4/OkHttpHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cp4/RepeatEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cp4/RepeatEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cp4/OkHttpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cp4/RepeatEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cp4/RepeatEx.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,10 +73,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cp4/ConcatEx.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/flip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+            <state relative-caret-position="225">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,10 +85,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cp4/AmbEx.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/NewThreadSchedulerEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="180">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/TrampolineSchedulerEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/HttpGetEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/CallBackHeaven.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,13 +135,68 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cp4/TakeUntilEX.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/OpenWeatherMapV1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="506">
+              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1145#1146#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/ShapeCannotFlipException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -117,13 +225,11 @@
         <option value="$PROJECT_DIR$/src/main/java/cp4/IntervalEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/TimerEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/DeferEx.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/OkHttpHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/RepeatEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/ConcattMapEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/SwitchMapEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/GroupByEx.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/Shape.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/ZipEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/ElectricBills.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/ConbineLatest.java" />
@@ -132,10 +238,26 @@
         <option value="$PROJECT_DIR$/src/main/java/cp4/AmbEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/TakeUntil.java" />
         <option value="$PROJECT_DIR$/src/main/java/cp4/TakeUntilEX.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cp4/AllEx.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/common/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/CommonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/CommonUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/ShapeConnotFlipException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/Shape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch5/flip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch5/NewThreadSchedulerEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch5/ComputationSchedulerEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch5/IOSchedulerEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch5/TrampolineSchedulerEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch5/HttpGetEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch5/CallBackHeaven.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch5/OpenWeatherMapV1.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="840" />
     <option name="y" value="23" />
     <option name="width" value="840" />
@@ -147,7 +269,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,6 +301,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ch5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rxjava1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxjava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rxjava1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxjava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cp3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rxjava1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxjava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cp4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -189,7 +335,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,13 +362,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TakeUntilEX">
-    <configuration name="AmbEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cp4.AmbEx" />
+  <component name="RunManager" selected="Application.OpenWeatherMapV1">
+    <configuration name="CallBackHeaven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5.CallBackHeaven" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cp4.*" />
+          <option name="PATTERN" value="ch5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,12 +376,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConbineLatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cp4.ConbineLatest" />
+    <configuration name="ComputationSchedulerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5.ComputationSchedulerEx" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cp4.*" />
+          <option name="PATTERN" value="ch5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,12 +389,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcatEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cp4.ConcatEx" />
+    <configuration name="HttpGetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5.HttpGetEx" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cp4.*" />
+          <option name="PATTERN" value="ch5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -256,12 +402,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReactiveSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cp4.ReactiveSum" />
+    <configuration name="IOSchedulerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5.IOSchedulerEx" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cp4.*" />
+          <option name="PATTERN" value="ch5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,12 +415,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakeUntilEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cp4.TakeUntilEX" />
+    <configuration name="OpenWeatherMapV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch5.OpenWeatherMapV1" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cp4.*" />
+          <option name="PATTERN" value="ch5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,11 +430,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TakeUntilEX" />
-        <item itemvalue="Application.AmbEx" />
-        <item itemvalue="Application.ConcatEx" />
-        <item itemvalue="Application.ReactiveSum" />
-        <item itemvalue="Application.ConbineLatest" />
+        <item itemvalue="Application.OpenWeatherMapV1" />
+        <item itemvalue="Application.CallBackHeaven" />
+        <item itemvalue="Application.HttpGetEx" />
+        <item itemvalue="Application.IOSchedulerEx" />
+        <item itemvalue="Application.ComputationSchedulerEx" />
       </list>
     </recent_temporary>
   </component>
@@ -304,18 +450,19 @@
       <updated>1551764967282</updated>
       <workItem from="1551764971201" duration="32000" />
       <workItem from="1551765013721" duration="19091000" />
-      <workItem from="1551836294223" duration="8857000" />
+      <workItem from="1551836294223" duration="9629000" />
+      <workItem from="1551935971689" duration="6455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27980000" />
+    <option name="totallyTimeSpent" value="35207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="840" y="23" width="840" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13492064" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27944863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -389,27 +536,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cp4/RepeatEx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cp4/OkHttpHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -483,16 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cp4/ZipEx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -535,17 +655,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cp4/amb.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cp4/amb.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cp4/ConcatEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+        <state relative-caret-position="195">
+          <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -554,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cp4/AmbEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="345">
           <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -564,10 +685,165 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cp4/TakeUntilEX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="270">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cp4/AllEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/ShapeCannotFlipException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/flip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/IOSchedulerEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/ComputationSchedulerEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/HttpGetEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/CallBackHeaven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/NewThreadSchedulerEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/TrampolineSchedulerEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/OpenWeatherMapV1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
           </folding>
         </state>
       </provider>
