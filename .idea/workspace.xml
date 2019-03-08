@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b3f2adb-30c0-4c55-b5f7-36f65a6f0b3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/CallBackHeaven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/ComputationSchedulerEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/HttpGetEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/IOSchedulerEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/NewThreadSchedulerEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/OpenWeatherMapV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/TrampolineSchedulerEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch5/flip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/ShapeCannotFlipException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch7/BufferEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch7/DebounceEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch7/RetryEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch7/SampleEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch7/ThrottleFirstEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch7/WindowEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/common/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/common/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/cp4/OkHttpHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/cp4/RepeatEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cp4/RepeatEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cp4/OkHttpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cp4/RepeatEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cp4/RepeatEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/common/OkHttpHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/common/OkHttpHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -73,10 +64,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/flip.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/OpenWeatherMapV1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="273">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,10 +76,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/NewThreadSchedulerEx.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch7/RetryEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="471">
+              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,10 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/TrampolineSchedulerEx.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch7/SampleEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="465">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,24 +100,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/HttpGetEx.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch7/BufferEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+            <state relative-caret-position="510">
+              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/CallBackHeaven.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch7/ThrottleFirstEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+            <state relative-caret-position="450">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch7/WindowEx.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,18 +136,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch5/OpenWeatherMapV1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ch7/DebounceEx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="315">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1253#1254#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1364#1365#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/CommonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,39 +162,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="250">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/common/Log.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#871#872#0" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/common/Shape.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -251,9 +230,15 @@
         <option value="$PROJECT_DIR$/src/main/java/ch5/IOSchedulerEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch5/TrampolineSchedulerEx.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch5/HttpGetEx.java" />
-        <option value="$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch5/CallBackHeaven.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch5/OpenWeatherMapV1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch7/RetryEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch7/SampleEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch7/BufferEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch7/ThrottleFirstEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch7/WindowEx.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch7/DebounceEx.java" />
       </list>
     </option>
   </component>
@@ -269,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,6 +293,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ch7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rxjava1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rxjava" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,6 +327,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -362,13 +355,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OpenWeatherMapV1">
-    <configuration name="CallBackHeaven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.CallBackHeaven" />
+  <component name="RunManager" selected="Application.DebounceEx">
+    <configuration name="BufferEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.BufferEx" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5.*" />
+          <option name="PATTERN" value="ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,12 +369,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputationSchedulerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.ComputationSchedulerEx" />
+    <configuration name="DebounceEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.DebounceEx" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5.*" />
+          <option name="PATTERN" value="ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,12 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HttpGetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.HttpGetEx" />
+    <configuration name="SampleEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.SampleEx" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5.*" />
+          <option name="PATTERN" value="ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,12 +395,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOSchedulerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.IOSchedulerEx" />
+    <configuration name="ThrottleFirstEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.ThrottleFirstEx" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5.*" />
+          <option name="PATTERN" value="ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,12 +408,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenWeatherMapV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.OpenWeatherMapV1" />
+    <configuration name="WindowEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch7.WindowEx" />
       <module name="rxjava1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch5.*" />
+          <option name="PATTERN" value="ch7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,11 +423,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OpenWeatherMapV1" />
-        <item itemvalue="Application.CallBackHeaven" />
-        <item itemvalue="Application.HttpGetEx" />
-        <item itemvalue="Application.IOSchedulerEx" />
-        <item itemvalue="Application.ComputationSchedulerEx" />
+        <item itemvalue="Application.DebounceEx" />
+        <item itemvalue="Application.WindowEx" />
+        <item itemvalue="Application.ThrottleFirstEx" />
+        <item itemvalue="Application.BufferEx" />
+        <item itemvalue="Application.SampleEx" />
       </list>
     </recent_temporary>
   </component>
@@ -451,25 +444,27 @@
       <workItem from="1551764971201" duration="32000" />
       <workItem from="1551765013721" duration="19091000" />
       <workItem from="1551836294223" duration="9629000" />
-      <workItem from="1551935971689" duration="6455000" />
+      <workItem from="1551935971689" duration="6808000" />
+      <workItem from="1552011961084" duration="232000" />
+      <workItem from="1552027257603" duration="5855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35207000" />
+    <option name="totallyTimeSpent" value="41647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="840" y="23" width="840" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27944863" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932331" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -490,6 +485,35 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932331" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.3379679" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32941177" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.13003664" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradlew">
@@ -703,63 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/CommonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
-            <element signature="e#1765#1766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/ShapeCannotFlipException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/flip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch5/IOSchedulerEx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -780,32 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/HttpGetEx.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/flip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/CallBackHeaven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+        <state relative-caret-position="165">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -814,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch5/NewThreadSchedulerEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="135">
           <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -824,7 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch5/TrampolineSchedulerEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="255">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -832,18 +777,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/OpenWeatherMapV1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/HttpGetEx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="120">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/CallBackHeaven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/ShapeCannotFlipException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch5/OpenWeatherMapV1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/OkHttpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch7/RetryEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch7/SampleEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch7/BufferEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch7/ThrottleFirstEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch7/WindowEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch7/DebounceEx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
